@@ -1,7 +1,7 @@
 <!doctype html>
 <html ng-app = 'ShoppingListCheckOff' >
   <head>
-    
+
     <script src="angular.min.js"> </script>
     <script src="App.js"> </script>
     <title>Shopping List Check Off</title>
@@ -47,11 +47,7 @@
         buy {{ item.quantity }} {{ item.name }}
        </li>
      </ul>
-        <ul>
-        <li ng-repeat= "item in showList.ErrorGetter track by $index">
-       </li>
-        <div class="emptyMessage"  ng-if = "showList.ErrorMessage" >{{showList.ErrorMessage}}.</div>
-            </ul>
+        <div class="emptyMessage" ng-model ="showList.ErrorGetter"  ng-if = "showList.ErrorMessage" >{{showList.ErrorMessage}}.</div>
     </div>
   </div>
 </div>
