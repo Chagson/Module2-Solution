@@ -47,7 +47,7 @@
         buy {{ item.quantity }} {{ item.name }}
        </li>
      </ul>
-        <div class="emptyMessage" ng-model ="showList.ErrorGetter"  ng-if = "showList.ErrorMessage" >{{showList.ErrorMessage}}.</div>
+        <div class="emptyMessage" ng-if = "showList.items.length == 0" >"Nothing is Bought".</div>
     </div>
   </div>
 </div>
