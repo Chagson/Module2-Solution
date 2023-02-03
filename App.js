@@ -41,9 +41,11 @@ function ShoppingListCheckOffService(){
   var ErrorCheck = 0;
 
 
-  var ToBuyItems = [{name : "cookies" ,
-      quantity:10},{name : "cookies" ,
-      quantity:10}];
+  var ToBuyItems = [{name : "cookies" ,quantity:10},
+                    {name : "Biscuits" ,quantity:10},
+                    {name:"lait",quantity:5},
+                    {name:"Chocolat",quantity:15},
+                    {name:"bonbon",quantity:30}];
   var boughtItems = [];
 
 
